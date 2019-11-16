@@ -12,4 +12,3 @@ credentials = pickle.load(open("token.pkl", "rb"))
 service = build("calendar", "v3", credentials=credentials)
 
 
-# Email: bimal.ch.k000@gmail.com
